@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Copy only the requirements first to leverage Docker cache
 COPY requirements.txt .
-COPY .env.example .env
+COPY env.example .env
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the server code
