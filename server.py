@@ -35,7 +35,7 @@ DISCORD_MCP_SERVER_PORT = int(os.getenv("DISCORD_MCP_SERVER_PORT", "5000"))
 # Helper function to create standard headers for Discord API calls
 def _get_discord_headers() -> Dict[str, str]:
     return {
-        "Authorization": f"Bearer {DISCORD_TOKEN}",
+        "Authorization": f"Bot {DISCORD_TOKEN}",
         "Content-Type": "application/json"
     }
 
