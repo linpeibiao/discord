@@ -64,7 +64,6 @@ You'll need one of the following:
 2. **Edit the `.env` file** with your bot token:
    ```
    DISCORD_TOKEN=YOUR_ACTUAL_DISCORD_BOT_TOKEN
-   DISCORD_MCP_SERVER_PORT=5000
    ```
 
 ## 🏃‍♂️ Running the Server
